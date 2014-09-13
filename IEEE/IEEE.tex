@@ -1,0 +1,52 @@
+\documentclass[conference]{IEEEtran}
+
+
+\usepackage{epsfig}
+\usepackage{flushend}
+\usepackage{fixltx2e}
+\usepackage{url}
+\usepackage{authblk}
+\usepackage[cmex10]{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{amssymb}
+\usepackage{subfig}
+
+
+ 
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+
+
+
+\begin{document}
+
+\title{\huge Title}
+
+
+% \author{}
+\author{Author 1}
+\author{Author 2}
+\affil{Affiliation\\
+\emph{\{email1, email2\}@ccs.neu.edu}}
+
+\maketitle
+
+
+\begin{abstract}
+
+IEEE LaTeX template, containing the mostly used packages, plus theorem, etc. sections.
+
+\end{abstract}
+\IEEEpeerreviewmaketitle
+
+
+\input{intro}
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,bibliography}
+\end{document}
