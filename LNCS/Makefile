@@ -1,15 +1,15 @@
 all: ps2pdf
-	pdflatex IEEE.tex
-	bibtex	IEEE
-	pdflatex IEEE.tex
-	pdflatex IEEE.tex
+	pdflatex LNCS.tex
+	bibtex	LNCS
+	pdflatex LNCS.tex
+	pdflatex LNCS.tex
 
 dvipspdf:
-	latex IEEE.tex
-	bibtex IEEE.aux
-	latex IEEE.tex
-	dvips IEEE.dvi
-	ps2pdf IEEE.ps
+	latex LNCS.tex
+	bibtex LNCS.aux
+	latex LNCS.tex
+	dvips LNCS.dvi
+	ps2pdf LNCS.ps
 
 clean:
 	rm *.aux
